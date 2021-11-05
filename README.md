@@ -16,6 +16,7 @@ You can run this project by checking out, initializing, and compiling
 $ git clone https://github.com/backupbrain/iosreactnativebarcodescanner.git
 $ cd iosreactnativebarcodescanner
 $ npm init
+$ npx pod-install
 $ npx react-native run-ios
 ```
 
