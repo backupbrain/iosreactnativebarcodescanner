@@ -8,21 +8,39 @@ In testing, I found that the default RNCamera caused compile problems in iOS, le
 
 As I was not using Expo to create the project, I had to use Expo as an integration.
 
-## Installing the toolhain
+## Installing the Toolchain
 
-Install [Hebrew](https://brew.sh/):
+To compile on macos, you must have:
+* Xcode and xcode-command-line-tools, to compile brew and iOS project
+* Brew, to install nodejs
+* nodejs, to compile React Native
+* coocapods, to install iOS framework dependencies
+
+**Install Xcode:**
+
+Go to App store and download Xcode. 30Gb required
+
+When done, open the Terminal and type:
+
+```
+$ xcocde-select -p
+```
+
+**Install [Hebrew](https://brew.sh/):**
+
+Homebrew should complete the xcode-command-line-tools installation.
 
 ```console
 $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 $ brew update
 ```
 
-Install [nodejs](https://nodejs.org/), npm, and npx
+**Install [nodejs](https://nodejs.org/), npm, and npx**
 ```console
 $ brew install nodejs
 ```
 
-Install [cocoapods](https://cocoapods.org/)
+**Install [cocoapods](https://cocoapods.org/)**
 
 ```console
 $ sudo gem install cocoapods
