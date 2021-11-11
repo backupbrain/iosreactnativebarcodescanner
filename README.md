@@ -26,7 +26,7 @@ When done, open the Terminal and type:
 $ xcocde-select -p
 ```
 
-**Install [Hebrew](https://brew.sh/):**
+**Install [Homebrew](https://brew.sh/):**
 
 Homebrew should complete the xcode-command-line-tools installation.
 
