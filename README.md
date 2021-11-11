@@ -18,7 +18,7 @@ To compile on macos, you must have:
 
 **Install Xcode:**
 
-Go to App store and download Xcode. 30Gb required
+Go to App store and download [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12). 30Gb required
 
 When done, open the Terminal and type:
 
