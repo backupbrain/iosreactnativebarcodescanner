@@ -8,6 +8,27 @@ In testing, I found that the default RNCamera caused compile problems in iOS, le
 
 As I was not using Expo to create the project, I had to use Expo as an integration.
 
+## Installing the toolhain
+
+Install [Hebrew](https://brew.sh/):
+
+```console
+$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+$ brew update
+```
+
+Install [nodejs](https://nodejs.org/), npm, and npx
+```console
+$ brew install nodejs
+```
+
+Install [cocoapods](https://cocoapods.org/)
+
+```console
+$ sudo gem install cocoapods
+```
+
+
 ## Running
 
 You can run this project by checking out, initializing, and compiling
