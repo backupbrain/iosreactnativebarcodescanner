@@ -15,6 +15,7 @@ To compile on macos, you must have:
 * Brew, to install nodejs
 * nodejs, to compile React Native
 * coocapods, to install iOS framework dependencies
+* expo-modules, to bridge react-native with expo
 
 **Install Xcode:**
 
@@ -35,9 +36,10 @@ $ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/
 $ brew update
 ```
 
-**Install [nodejs](https://nodejs.org/), npm, and npx**
+**Install [nodejs](https://nodejs.org/), npm, npx, and yarn**
 ```console
 $ brew install nodejs
+$ npm install --global yarn
 ```
 
 **Install [cocoapods](https://cocoapods.org/)**
@@ -46,6 +48,11 @@ $ brew install nodejs
 $ sudo gem install cocoapods
 ```
 
+**Install expo-modules:**
+
+```console
+$ npx install-expo-modules
+```
 
 ## Running
 
